@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: white;
+}
+
+header{
+	width: 100%;
+	clear: both;
+	content: '';
+	display: table;
+}
+.menu{
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#imgLogo{
+	width: 100px;
+	border: 1px hidden black;
+	float: left;
+	padding: 8px;
+	font-family: 'Righteous', cursive;
+	color: #375BA9;
+
+}
+
+nav{
+	float: right;
+}
+
+nav ul li{
+	list-style: none;
+	margin-left: 75px;
+	padding: 12px 0;
+	float: left;
+	position: relative;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #1F1F1F;
+}
+
+.saludo{
+	font-family: 'Righteous', cursive;
+	font-size: 70px;
+	color: #1F1F1F;
+}
+
+.tituloSaludoColor{
+	color: #375BA9;
+}
+
+.cajaVaciaInicio{
+	float: left;
+	position: relative;
+	width: 100px;
+	border: 4px double;
+	color: white
+}
+
+#fotoInicio{
+	width: 450px;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.btnInicio{
+	
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	background: #375BA9;
+	width: 160PX;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 25px;
+}
+
+
+.cajaVaciaInicioW{
+display: inline-block;
+position: relative;
+width: 520PX;
+}
+
+.imgHipervinculo{
+	display: inline-block;
+	position: relative;
+	margin-left: 10%;
+}
+
+#github{
+	width: 40px;
+}#inst{
+	width: 40px;
+}#youtube{
+	width: 40px;
+}
+
+
+
+.textYoInicio{
+	background: white;
+	height: 220PX;
+	margin: 2REM auto;
+	text-align: justify;
+	width: 800px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	color: #1F1F1F;
+}
+
+
+footer{
+	padding: 20px;
+	background: #375BA9;
+	text-align: right; 
+} footer p{
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+/*Comienzo de DATOS.HTML*-----------------------------------------------------*/
+.container{
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.imgColDatos{
+	flex-basis: 40%;
+}#fotoDatos{
+	height: 500px;
+}
+
+.textColDatos{
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	color: #1F1F1F;
+}.nameDatos{
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	color: #375BA9;
+	font-size: 50px;
+}.titDatosnone{
+	font-size: 15px;
+}
+
+.box{
+	background: white;
+	height: 220PX;
+	margin: 2REM auto;
+	text-align: justify;
+	width: 550px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	color: #1F1F1F;
+	
+}
+
+.ul1{
+	list-style-type: none;
+}.ul2{
+	list-style-type: none;
+}
+.tit2Acad{
+	font-size: 25px;
+	font-style: italic;
+}.tit2Acad1{
+	font-size: 25px;
+	font-style: italic;
+}.h1titAcad{
+	color: #375BA9
+}
+
+.box1{
+	background: white;
+	height: 70PX;
+	margin: 2REM auto;
+	text-align: center;
+	width: 700px;
+	font-family: 'Nunito', sans-serif;
+	color: #1F1F1F;
+}.h1titIndu{
+	color: #375BA9
+	}.titInduTec{
+	font-size: 25px;
+	font-style: italic;
+	}.preguntaTec{
+		font-size: 13px;
+		font-family: 'Nunito', sans-serif;
+		color: #1F1F1F;
+	}
+
+/*Comienzo de HABILIDAD.HTML*-----------------------------------------------------*/
+.sectionskills{
+	box-sizing: border-box;
+	padding: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-style: italic;
+
+}
+
+.h1skills{
+	text-align: center;
+	color: #375BA9;
+	font-size: 35px;
+	font-style: normal;	
+}
+
+.mainskill{
+	margin-top: 10%;
+	}.mainskill h3{
+		margin-bottom: 5px;
+		margin-left: 25%;
+	}
+.skillHabilidades{
+	width: 50%;
+	background-color: #D6D6D6;
+	margin-left: 25%;
+	border-radius: 10px;
+}
+.skills{
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	border-radius: 10PX;
+}
+
+.HTML{width: 40%; background-color: #FDB849;}
+.CSS{width: 30%; background-color: #FDB849;}
+.JS{width: 5%; background-color: #FDB849;}
+.Python{width: 10%; background-color: #FDB849;}
+.PHP{width: 5%; background-color: #FDB849;}
+
+/*Comienzo de CONTACTO.HTML*-----------------------------------------------------*/
+
+form{
+	width: 450px;
+	margin: auto;
+	background: #E9E9E9;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	border: 2px solid;
+	border-color: #D6D6D6;
+	border-radius: 30px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#titContacto{
+	color: #375BA9;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	margin: 0px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px; 
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+
+#botonContact{
+	background: #375BA9;
+	color: white;
+	padding: 15px;
+	border-radius: 30px;	
+	font-size: 20px;
+}
+#botonContact:hover{
+	cursor: pointer;
+}
+
